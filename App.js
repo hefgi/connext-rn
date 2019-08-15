@@ -30,6 +30,9 @@ import 'ethers/dist/shims.js';
 // Import the ethers library
 import { ethers as eth } from 'ethers';
 
+// Import Connext
+import * as connext from "@connext/client";
+
 // Optional URL overrides for custom urls
 const overrides = {
   nodeUrl: 'wss://rinkeby.indra.connext.network/api/messaging',
